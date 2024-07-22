@@ -1,38 +1,34 @@
-﻿<a name="_hlk166795453"></a><a name="_hlk166834549"></a>               ![](Raaport/Aspose.Words.c08bdce0-593f-477a-95af-0bb750e6846b.001.jpeg)	
+![Image](Raaport/Aspose.Words.c08bdce0-593f-477a-95af-0bb750e6846b.001.jpeg)
 
+# Filière Sciences Mathématiques et Informatique
 
-**Filière Sciences Mathématiques et Informatique**
+## Projet de Fin d’Études
 
-**Projet de Fin d’Etudes**
+### Semestre S<sub>6</sub>
 
-<b>Semestre S<sub>6</sub></b>
+#### Mémoire
 
-**Mémoire**
+### Gestion de location de voiture
 
-**Gestion de location de voiture**
+#### Présenté par :
 
-Présenté par :
+**Bouhrir Ayat**  
+**Zerroudi Jalal**
 
-**Bouhrir Ayat						      	Zerroudi Jalal**
+#### Encadrant :
 
+**Pr. Bennani Mohamed Taj**
 
-Encadrant : **Pr. Bennani Mohamed Taj**
+#### Soutenu le :
 
+#### Jury :
 
-Soutenu le : 
+**Examinateur 1 :**  
+**Examinateur 2 :**
 
-Jury : 
+---
 
-Examinateur 1 :
-
-Examinateur 2 :	
-
-
-***Année Universitaire : 2023/2024***
-
-
-
-
+**Année Universitaire : 2023/2024**
 
 
 
