@@ -1,34 +1,39 @@
-![Image](Raaport/Aspose.Words.c08bdce0-593f-477a-95af-0bb750e6846b.001.jpeg)
+<p align="center">
+  <img src="Raaport/Aspose.Words.c08bdce0-593f-477a-95af-0bb750e6846b.001.jpeg" alt="Image" />
+</p>
 
-# Filière Sciences Mathématiques et Informatique
+<h1 align="center">Filière Sciences Mathématiques et Informatique</h1>
 
-## Projet de Fin d’Études
+<h2 align="center">Projet de Fin d’Études</h2>
 
-### Semestre S<sub>6</sub>
+<h3 align="center">Semestre S<sub>6</sub></h3>
 
-#### Mémoire
+<h4 align="center">Mémoire</h4>
 
-### Gestion de location de voiture
+<h3 align="center">Gestion de location de voiture</h3>
 
-#### Présenté par :
+<h4 align="center">Présenté par :</h4>
 
-**Bouhrir Ayat**  
-**Zerroudi Jalal**
+<p align="center">
+  <b>Bouhrir Ayat</b>  
+  <b>Zerroudi Jalal</b>
+</p>
 
-#### Encadrant :
+<h4 align="center">Encadrant :</h4>
 
-**Pr. Bennani Mohamed Taj**
+<p align="center"><b>Pr. Bennani Mohamed Taj</b></p>
 
-#### Soutenu le :
+<h4 align="center">Soutenu le :</h4>
 
-#### Jury :
+<h4 align="center">Jury :</h4>
 
-**Examinateur 1 :**  
-**Examinateur 2 :**
+<p align="center">
+  <b>Examinateur 1 :</b>  
+  <b>Examinateur 2 :</b>
+</p>
 
----
+<p align="center"><b>Année Universitaire : 2023/2024</b></p>
 
-**Année Universitaire : 2023/2024**
 
 
 
