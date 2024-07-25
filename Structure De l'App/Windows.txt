@@ -1,0 +1,173 @@
+
+Emp :
+
+***
+Pour la fenêtre de l'employé (EmpWindow), voici les fonctionnalités de l'employé :
+
+Dans la page d'accueil de la fenêtre de l'employé (EmpWindow) : ("
+	1. **Liste des réservations à venir** :
+   		- Afficher les réservations prévues pour les prochains jours afin que l'employé puisse se préparer en conséquence.
+   		- Inclure des détails tels que la date, l'heure, le client et le véhicule réservé.
+
+	2. **Notifications importantes** :
+   		- Afficher les notifications importantes pour informer l'employé des événements critiques, tels que les rappels de maintenance des véhicules ou les réservations urgentes.
+   		- Les notifications peuvent être présentées dans une zone dédiée de la page d'accueil pour attirer l'attention de l'employé.
+
+	3. **Tâches à effectuer** :
+   		- Afficher les tâches assignées à l'employé, telles que la préparation des véhicules pour les réservations, le traitement des retours de location, etc.
+	   	- Les tâches peuvent être répertoriées avec des détails supplémentaires tels que l'état actuel de la tâche et la date limite si nécessaire.
+
+	4. **Informations sur les véhicules** :
+   		- Afficher des informations sur les véhicules disponibles, tels que leur emplacement, leur état de maintenance, etc.
+   		- Cela peut aider l'employé à répondre rapidement aux demandes des clients et à gérer efficacement les réservations.
+
+	5. **Statut de la flotte de véhicules** :
+   		- Afficher un aperçu du statut général de la flotte de véhicules, y compris le nombre total de véhicules disponibles, en maintenance ou en location.
+   		- Cela peut fournir à l'employé une vue d'ensemble de la disponibilité des véhicules à tout moment.
+
+	6. **Liens rapides vers les fonctionnalités principales** :
+   		- Fournir des liens rapides vers les fonctionnalités principales de l'application, telles que la gestion des réservations, la recherche de véhicules, etc.
+   		- Cela permet à l'employé d'accéder rapidement aux fonctionnalités dont il a besoin pour effectuer ses tâches.
+")
+
+
+1. Gestion des clients :
+   - Afficher la liste des clients de l'agence .
+   - Permettre à l'employé de rechercher, ajouter, modifier ou supprimer des clients.
+
+2. Gestion des réservations :
+   - Afficher les réservations actuelles.
+   - Permettre à l'employé de créer de nouvelles réservations pour les clients.
+   - Permettre à l'employé de modifier ou annuler les réservations existantes.
+
+3. Gestion des contrats de location :
+   - Afficher les contrats de location actuels.
+   - Permettre à l'employé de créer de nouveaux contrats de location pour les clients.
+   - Permettre à l'employé de modifier ou annuler les contrats de location existants.
+
+4. Gestion des paiements :
+   - Afficher les paiements en attente ou effectués.
+   - Permettre à l'employé de saisir de nouveaux paiements pour les contrats de location.
+
+5. Notifications :
+   - Les notifications peuvent inclure des détails sur les réservations, tels que la date, l'heure et les informations sur le client et le véhicule.
+   - Afficher les notifications pertinentes pour l'employé, telles que les rappels de maintenance des véhicules, les rappels de réservations à venir, etc.
+   - Fournir à l'employé des options pour gérer les notifications, telles que les marquer comme lues, les archiver ou les supprimer.
+   - Les options de gestion peuvent également inclure la possibilité de suivre les notifications non lues ou les notifications importantes.
+6. Paramètres :
+   - Permettre à l'employé de configurer des paramètres personnels, tels que les préférences d'affichage ou les notifications.
+
+Interface conviviale :
+   - Assurez-vous que l'interface utilisateur est conviviale et intuitive pour permettre à l'employé d'accéder facilement aux fonctionnalités nécessaires et d'effectuer ses tâches efficacement.
+
+
+Menu Employé
+------------
+	1. Accueil
+	2. Gérer les réservations
+	3. Gérer des clients
+	3. Voir les contrats de location ( Permet à l'employé de consulter les détails des contrats de location en cours, y compris les dates, les véhicules loués )
+	4. Générer des rapports 
+	5. Gérer les paiements ( Donne accès à la fonctionnalité de gestion des paiements, où l'employé peut enregistrer les paiements des clients pour les locations de véhicules )
+	6. Notifications
+	7. Paramètres
+	8. Déconnexion
+
+
+
+***
+Admin :
+
+Pour la fenêtre de l'administrateur (AdminWindow), vous pouvez implémenter les fonctionnalités suivantes :
+Dans la page d'accueil : ("
+	Affichage des statistiques principales :
+		Obtenez le nombre de voitures, le nombre de clients et le chiffre d'affaires total comme expliqué précédemment.
+		Affichez ces statistiques sur la page d'accueil dans des labels ou des contrôles appropriés.
+	
+	Statistiques par marque de voiture :
+		Obtenez les statistiques de voiture par marque à partir de votre base de données. 
+		Cela peut inclure le nombre de voitures par marque ou le chiffre d'affaires généré par chaque marque.
+		Affichez ces statistiques dans un tableau ou un graphique sur la page d'accueil.
+	
+	Impression des rapports de statistiques :
+		Ajoutez un bouton "Imprimer rapports" sur la page d'accueil.
+		Associez un gestionnaire d'événements à ce bouton pour déclencher l'impression des rapports de statistiques lorsque l'administrateur clique dessus.
+		Les rapports peuvent être générés au format PDF ou tout autre format pris en charge pour l'impression.
+")
+
+1. **Gestion des voitures** :
+   - Afficher la liste des voitures disponibles dans l'agence de location.
+   - Permettre à l'administrateur d'ajouter de nouvelles voitures, de modifier les détails des voitures existantes (comme le modèle, la couleur, etc.), de supprimer des voitures obsolètes et de gérer les tâches de maintenance.
+
+2. **Gestion des employés** :
+   - Afficher la liste des employés travaillant dans l'agence.
+   - Permettre à l'administrateur d'ajouter de nouveaux employés, de modifier les détails des employés existants (tels que les informations personnelles, le rôle, etc.), de révoquer les accès des employés sortants .
+
+3. **Génération de rapports** :
+   - Permettre à l'administrateur de générer des rapports sur divers aspects de l'activité de location, tels que les revenus mensuels, les réservations annulées, les statistiques sur l'utilisation des voitures, etc.
+   - Les rapports peuvent être présentés sous forme de tableaux, de graphiques ou d'autres formats visuels pour une analyse facile.
+
+4. **Gestion des notifications** :
+   - Afficher des notifications pour informer l'administrateur des événements importants, tels que les réservations de voitures, les demandes de maintenance, les nouveaux employés ajoutés, etc.
+   - Les notifications peuvent être personnalisables en fonction des préférences de l'administrateur et peuvent être marquées comme lues, archivées ou supprimées selon les besoins.
+
+5. **Paramètres de l'application** :
+   - Permettre à l'administrateur de configurer les paramètres de l'application, tels que les préférences de notification, les options de langue, les paramètres de sécurité, etc.
+   - Les paramètres peuvent être accessibles via une interface conviviale et peuvent être sauvegardés pour une utilisation future.
+
+6. **Audit et historique des actions** :
+   - Enregistrer les actions effectuées par l'administrateur, telles que les modifications apportées aux voitures ou aux employés, les rapports générés, etc.
+   - Fournir un journal d'audit pour suivre les activités de l'administrateur et garantir la traçabilité des modifications effectuées dans le système.
+
+
+### Pour la fenêtre de l'administrateur (AdminWindow) :
+
+**Fonctionnalités de l'administrateur :**
+1. Gestion des voitures
+2. Gestion des employés
+3. Génération de rapports
+4. Gestion des notifications ( Peut Donner une Tâche a Emp ).
+5. Paramètres de l'application
+6. Audit et historique des actions
+
+**Menu Administrateur :**
+1. Accueil
+2. Gérer les voitures
+3. Gérer les employés
+4. Générer des rapports
+5. Paramètres
+6. Notification
+7. Déconnexion
+
+
+Here's a professional and concise description for your LinkedIn profile:
+
+---
+
+**Car Rental Management Application**
+
+**Description:**
+I developed a comprehensive Car Rental Management Application using C#, WPF (Windows Presentation Foundation), .NET 8.0, and the MVVM (Model-View-ViewModel) design pattern. This application aims to streamline car rental operations by automating key processes such as booking, inventory management, and billing. It is divided into three parts to enhance user experience and operational efficiency:
+
+- **AdminApp:** Manages the overall administration, including car inventory, rental pricing, and user management.
+- **EmpApp:** Empowers employees to handle daily rental transactions, customer interactions, and vehicle maintenance schedules.
+- **LoginApp:** Provides secure access to the application, ensuring only authorized personnel can access different functionalities based on their roles.
+
+**Key Features:**
+- Modern and intuitive user interface developed with WPF.
+- Robust and scalable architecture leveraging .NET 8.0.
+- Efficient data management and operations automation following the MVVM design pattern.
+- Enhanced security through role-based access control.
+
+**Technologies Used:**
+- C#
+- WPF (Windows Presentation Foundation)
+- .NET 8.0
+- MVVM (Model-View-ViewModel) Design Pattern
+
+This project showcases my ability to design and implement complex software solutions, demonstrating my proficiency in modern development frameworks and patterns.
+
+---
+
+Feel free to adjust this description to better fit your personal style or any additional details you might want to include.
+

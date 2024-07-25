@@ -1,0 +1,53 @@
+les table de base de donner pour l'application de la location de voiture : 
+
+1. **Table Voitures** :
+   - VoitureID (Clé primaire)
+   - Marque
+   - Modèle
+   - Année
+   - Couleur
+   - TypeCarburant
+   - PrixLocationJour
+   - Disponibilité
+
+2. **Table Clients** :
+   - ClientID (Clé primaire)
+   - Nom
+   - Prénom
+   - Adresse
+   - Téléphone
+   - Email
+
+3. **Table Réservations_Contrat** :
+   - ReservationID (Clé primaire)
+   - VoitureID (Clé étrangère vers la table Voitures)
+   - ClientID (Clé étrangère vers la table Clients)
+   - DateDébut
+   - DateFin
+   - MontantTotal
+   - Statut (En attente, Confirmée, Annulée, etc.)
+
+4. **Table Paiements** :
+   - PaiementID (Clé primaire)
+   - ReservationID (Clé étrangère vers la table Réservations_Contrat)
+   - MontantPayé
+   - DatePaiement
+   - MéthodePaiement
+
+5. **Table Agence** :
+   - AgenceID (Clé primaire)
+   - NomAgence
+   - Adresse
+   - Téléphone
+   - Email
+   - AutresInformations
+
+6. **Table Emp** (Employés) :
+   - EmpID (Clé primaire)
+   - Nom
+   - Prénom
+   - Adresse
+   - Téléphone
+   - Email
+   - Poste (Administrateur, Agent de location, etc.)
+   - AgenceID (Clé étrangère vers la table Agence)

@@ -1,0 +1,41 @@
+Résumé des fonctionnalités pour chaque fenêtre :
+
+### Pour la fenêtre de l'employé (EmpWindow) :
+
+**Fonctionnalités de l'employé :**
+1. Liste des réservations à venir
+2. Notifications importantes
+3. Tâches à effectuer .
+4. Informations sur les véhicules
+5. Statut de la flotte de véhicules
+6. Liens rapides vers les fonctionnalités principales
+
+**Menu Employé :**
+1. Accueil
+2. Gérer les réservations
+3. Gérer des clients
+4. Voir les contrats de location
+5. Générer des rapports 
+6. Gérer les paiements
+7. Notifications
+8. Paramètres
+9. Déconnexion
+
+### Pour la fenêtre de l'administrateur (AdminWindow) :
+
+**Fonctionnalités de l'administrateur :**
+1. Gestion des voitures
+2. Gestion des employés
+3. Génération de rapports
+4. Gestion des notifications (Peut Donner une Tâche a Emp).
+5. Paramètres de l'application
+6. Audit et historique des actions
+
+**Menu Administrateur :**
+1. Accueil
+2. Gérer les voitures
+3. Gérer les employés
+4. Générer des rapports
+5. Paramètres
+6. Notification
+7. Déconnexion
